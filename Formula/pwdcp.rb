@@ -6,6 +6,6 @@ class Pwdcp < Formula
   def install
 
     libexec.install Dir["*"]
-    bin.write_exec_script (libexec/"foo")
+    bin.write_exec_script (libexec/"pwdcp")
   end
 end
